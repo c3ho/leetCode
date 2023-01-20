@@ -12,6 +12,7 @@ A substring is a contiguous sequence of characters in a string.
 
 - 1 <= s.length <= 100
 - s consists of lowercase English letters.
+
 """
 
 # We can use a sliding window and shift it by 1, while in the loop, we'll also have to identify if the 3 letter
