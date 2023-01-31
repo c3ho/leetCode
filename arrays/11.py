@@ -20,6 +20,8 @@ Notice that you may not slant the container.
 # smaller than the first pointer, we decrease the second pointer
 
 
+# Time complexity O(N) - worst case scenario we traverse the whole list of heights
+# Space complexity O(1) - we use a constant space no matter how big the list of heights is
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         # keep track of max
