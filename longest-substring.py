@@ -18,6 +18,8 @@ class Solution:
         max_length = 0
 
         for letter in s:
+            # if letter already exists in the window, we'll grab the substring from the first instance of the repeating character
+            # to the end of the substring
             if letter in arr:
                 arr = arr[arr.index(letter) + 1:]
 
